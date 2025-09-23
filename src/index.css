@@ -21,7 +21,7 @@
 body{
   background-image: url('./assets/MacBookAir-1.png');
   background-position-x: center;
-  background-size: 640%;
+  background-size: 634%;
   background-repeat: repeat-y;
 
 }
@@ -467,4 +467,80 @@ a.active.nav-link {
 }
 .team-padding{
   padding-top: 57px;
+}
+
+/* news section */
+.News-section{
+  background-image: url("src/assets/Community Highlights.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+.news-p{
+  font-size: 18px;
+}
+.news-card{
+  position: relative;
+}
+.show-need{
+  position: absolute;
+  margin-left: 20px;
+  bottom: 5%;
+  display: none;
+}
+.show-need .nav-link{
+  color: #FF00D0 !important;
+  text-decoration: underline #FF00D0 !important;
+  font-family: var(--poppins);
+  font-size: 16px;
+}
+.h4-news{
+  font-size: 24px;
+}
+.news-card:hover img{
+  opacity: 80%;
+}
+.news-card:hover .show-need{
+  display: block;
+}
+
+/* rating-section */
+
+.rating-section{
+  padding: 80px 0;
+}
+.rating-p{
+  font-family: var(--poppins);
+  font-size: 20px;
+  color: white;
+  line-height: 187.5%;
+}
+.rating-box{
+  border: 2px solid transparent;
+  background: linear-gradient(rgb(0,0,0),rgb(0,0,0)), var(--borderColor);
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+  padding: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.h4-rating, .p-rating{
+  font-family: var(--poppins);
+  color: white;
+  font-size: 18px;
+}
+.h4-rating{
+  font-weight: bold;
+}
+.hi-here{
+  position: relative;
+  z-index: 1;
+}
+.rating-box{
+      position: absolute;
+    top: 35%;
+    left: -100%;
+    right: 95%;
+    z-index: -1;
 }

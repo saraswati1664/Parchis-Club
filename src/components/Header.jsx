@@ -5,6 +5,9 @@ import TrendingGames from './TrendingGames.jsx';
 import Features from './Features.jsx';
 import VideoTrailer from './VideoTrailer.jsx';
 import Teams from './Teams.jsx';
+import News from './News.jsx';
+import Rating from './Rating.jsx';
+import Footer from './Footer.jsx';
 function Header(){
     return(
         <>
@@ -37,6 +40,15 @@ function Header(){
         </section>
         <section className='teams-section'>
             <Teams />
+        </section>
+        <section className='News-section'>
+            <News />
+        </section>
+        <section className='rating-section'>
+            <Rating />
+        </section>
+        <section className='footer-section'>
+            <Footer />
         </section>
         </>
     )
