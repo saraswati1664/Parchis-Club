@@ -4,6 +4,7 @@ import About from './About.jsx';
 import TrendingGames from './TrendingGames.jsx';
 import Features from './Features.jsx';
 import VideoTrailer from './VideoTrailer.jsx';
+import Teams from './Teams.jsx';
 function Header(){
     return(
         <>
@@ -33,6 +34,9 @@ function Header(){
         </section>
         <section className='trailer-section'>
         <VideoTrailer />
+        </section>
+        <section className='teams-section'>
+            <Teams />
         </section>
         </>
     )
