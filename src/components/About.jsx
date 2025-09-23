@@ -76,7 +76,7 @@ function About(){
                     <video  poster="src/assets/want-new-members.png"> <source src="https://www.youtube.com/watch?v=jAj_nbWYb7g&list=RDjAj_nbWYb7g&start_radio=1" type="video/mp4" />Your browser does not support the video tag.
                     </video>
                     
-                    <Nav.Link><i class="fa-regular fa-circle-play icon-tag"></i></Nav.Link>
+                    <Nav.Link><i className="fa-regular fa-circle-play icon-tag"></i></Nav.Link>
                     <p className='imge-para-about'>Introducing Aquatik Esports | Now Recruiting</p>
                     <Row>
                         <Col md={6} className='d-flex gap-2 align-items-center'>

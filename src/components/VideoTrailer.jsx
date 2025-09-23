@@ -8,7 +8,7 @@ function VideoTrailer(){
         <Container>
         <Row className="gap-5 give-position">
             <img src="src\assets\video-banner.png" alt="" />
-            <Nav.Link><i class="fa-regular fa-circle-play icon-tags"></i></Nav.Link>
+            <Nav.Link><i className="fa-regular fa-circle-play icon-tags"></i></Nav.Link>
             <Col>
              <Row>
                 <Col><p className="feature-p">We are ready to deliver your vision across multiple platforms, mobile, or desktop. Games are the language of the 21st century and we can help you harness their unique power. Games are a language of storytelling. We’re looking for games that develop and expand this language.</p></Col>

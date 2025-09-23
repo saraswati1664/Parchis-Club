@@ -3,12 +3,14 @@
 @import url('https://fonts.cdnfonts.com/css/ammonite');
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 :root{
+  --ubuntu:"Ubuntu", sans-serif;
   --montserrat:"Montserrat", sans-serif;
   --ammonite:'Ammonite', sans-serif;
   --poppins:"Poppins", sans-serif;
@@ -283,6 +285,7 @@ a.active.nav-link {
 }
 .give-position{
   position: relative;
+  cursor: pointer;
 }
 .icon-tag{
     color: rgb(255, 255, 255);
@@ -543,4 +546,73 @@ a.active.nav-link {
     left: -100%;
     right: 95%;
     z-index: -1;
+}
+
+/* footer sectoin */
+
+.footer-back{
+  background-image: url("src/assets/Header&Banner.png"),var(--borderColor);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+  background-position-y: center;
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding:  40px;
+}
+.h3-footer{
+  font-family: var(--ammonite);
+  font-size: 36px;
+  color: white;
+}
+.footer-para{
+  font-family: var(--poppins);
+  font-size: 16px;
+  color: white;
+}
+.h4-footer{
+  font-family: var(--ubuntu);
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-icon-div{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.footer-icon-div .nav-link{
+    padding: 5px 5px;
+    background: var(--purpleButton);
+    width: 9%;
+    text-align: center;
+    border-radius: 20px;
+}
+.h3-footer-mid{
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.lists-footer{
+  display: inline-block;
+  margin-top: 10px;
+}
+.lists-footer li{
+  color: white;
+  font-family: var(--poppins);
+  font-size: 16px;
+  list-style: disc;
+  list-style-image: var(--purpleButton);
+  padding-bottom: 20px;
+}
+.lists-footer li::marker {
+  color: var(--purpleButton); 
+}
+.contain-footer-div{
+  padding-top: 15px;
 }
