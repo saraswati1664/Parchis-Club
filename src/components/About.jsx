@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Counter from './Counter'; // import the Counter
+import VideoPlayer from './VideoPlayer';
 
 function About(){
     return(
@@ -72,11 +73,7 @@ function About(){
                 </Col>
 
                 <Col md={6} sm={12} className='give-position'>
-                    {/* <img src="src/assets/want-new-members.png" alt="here is image" /> */}
-                    <video  poster="src/assets/want-new-members.png"> <source src="https://www.youtube.com/watch?v=jAj_nbWYb7g&list=RDjAj_nbWYb7g&start_radio=1" type="video/mp4" />Your browser does not support the video tag.
-                    </video>
-                    
-                    <Nav.Link><i className="fa-regular fa-circle-play icon-tag"></i></Nav.Link>
+                    <VideoPlayer />
                     <p className='imge-para-about'>Introducing Aquatik Esports | Now Recruiting</p>
                     <Row>
                         <Col md={6} className='d-flex gap-2 align-items-center'>
