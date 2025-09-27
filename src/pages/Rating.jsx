@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 function Rating(){
     return(
         <>
+        <section className='rating-section'>  
         <Container>
             <Row>
                 <Col>
@@ -29,6 +30,7 @@ function Rating(){
                 </Col>
             </Row>
         </Container>
+        </section>
         </>
     )
 }

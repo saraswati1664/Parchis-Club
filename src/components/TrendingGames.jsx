@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 function TrendingGames(){
     return(
         <>
+        <section className='trending-games'>
         <Container>
         <div className='trends-div'>
             <h2 className="trending-h2 about-h2">Currently Trending Games</h2>
@@ -33,6 +34,7 @@ function TrendingGames(){
             </Col>
         </Row>
         </Container>
+        </section>
         </>
     )
 }

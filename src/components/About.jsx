@@ -1,95 +1,138 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Counter from './Counter'; // import the Counter
-import VideoPlayer from './VideoPlayer';
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Nav from "react-bootstrap/Nav";
+function Feature(){
 
-function About(){
     return(
         <>
+        <section className='features-section' id="about">
         <Container>
-            <Row className='row-1'>
-                <Col md={6} sm={12} className='column-1-members'>
-                <h2 className='about-h2'>Parchis Club Wants New Members</h2>
-                <p className='stylePara about-para'>
-                    It is very important for the customer to be aware of the fact that 
-                    the customer needs to be able to decorate the product in the two elements
-                </p>
-                <div className='about-board'>
-                    <Row className="innerboard align-items-center justify-content-between">
-                        <Col>
-                            <Row>
-                                <Col className='d-flex justify-content-between align-items-center'>
-                                    <div>
-                                        <h2 className='about-sec-h2'> 
-                                            <span style={{ whiteSpace: 'nowrap' }}>
-                                                <Counter target={4} duration={2000} />
-                                            </span>
-                                        </h2>
-                                        <p className='about-board-p'>Leagues</p>
-                                    </div>
-                                    <span>
-                                        <img src="src/assets/rectangles.png" alt="" />
-                                    </span>
-                                </Col>
-                            </Row>
-                        </Col>
-
-                        <Col>
-                            <Row>
-                                <Col className='d-flex justify-content-between align-items-center'>
-                                    <div>
-                                        <h2 className='about-sec-h2'> 
-                                            <span style={{ whiteSpace: 'nowrap'}}>
-                                                <Counter target={320} duration={2500} suffix=" H" />
-                                            </span>
-                                        </h2>
-                                        <p className='about-board-p'>Total Streams</p>
-                                    </div>
-                                    <span>
-                                        <img style={{marginLeft: '20px'}} src="src/assets/rectangles.png" alt="" />
-                                    </span>
-                                </Col>
-                            </Row>
-                        </Col>
-
-                        <Col>
-                            <Row>
-                                <Col className='d-flex justify-content-between align-items-center'>
-                                    <div>
-                                        <h2 className='about-sec-h2'> 
-                                            <span style={{ whiteSpace: 'nowrap' }}>
-                                                <Counter target={64} duration={3000} suffix=" K" />
-                                            </span>
-                                        </h2>
-                                        <p className='about-board-p'>Awarded</p>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
-                </div>
-                </Col>
-
-                <Col md={6} sm={12} className='give-position'>
-                    <VideoPlayer />
-                    <p className='imge-para-about'>Introducing Aquatik Esports | Now Recruiting</p>
-                    <Row>
-                        <Col md={6} className='d-flex gap-2 align-items-center'>
-                            <span><img src="src/assets/check-circle.png" alt="" /></span>
-                            <p className='bottom-img-para'>Lorem Ipsum is simply</p>
-                        </Col>
-                        <Col md={6} className='d-flex gap-2 align-items-center'>
-                            <span><img src="src/assets/check-circle.png" alt="" /></span>
-                            <p className='bottom-img-para'>Lorem Ipsum is simply</p>
-                        </Col>
-                    </Row>
-                </Col>
-            </Row>
-        </Container>
+        
+    <Row >
+        <Col>
+    <div className="features-container">
+    <div className="feature">
+        <img  src="src\assets\key-feature-1.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Game development</h3>
+            <p className="feature-p">Our works have been internationally recognized for their design, stories and art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    <div className="feature">
+        <img  src="src\assets\key-feature-2.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Game design</h3>
+            <p className="feature-p">We have long experience in creating educational and serious games with a wide range of topics, from history to ecology.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    <div className="feature">
+        <img  src="src\assets\key-feature-3.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Art direction</h3>
+            <p className="feature-p">We make award-winning games with unique art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    <div className="feature">
+        <img  src="src\assets\key-feature-1.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Game development</h3>
+            <p className="feature-p">Our works have been internationally recognized for their design, stories and art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    <div className="feature">
+        <img  src="src\assets\key-feature-2.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Game design</h3>
+            <p className="feature-p">We have long experience in creating educational and serious games with a wide range of topics, from history to ecology.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    <div className="feature">
+        <img  src="src\assets\key-feature-3.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Art direction</h3>
+            <p className="feature-p">We make award-winning games with unique art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    <div className="feature">
+        <img  src="src\assets\key-feature-1.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Game development</h3>
+            <p className="feature-p">Our works have been internationally recognized for their design, stories and art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    <div className="feature">
+        <img  src="src\assets\key-feature-2.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Game design</h3>
+            <p className="feature-p">We have long experience in creating educational and serious games with a wide range of topics, from history to ecology.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    <div className="feature">
+        <img  src="src\assets\key-feature-3.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Art direction</h3>
+            <p className="feature-p">We make award-winning games with unique art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    <div className="feature">
+        <img  src="src\assets\key-feature-1.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Game development</h3>
+            <p className="feature-p">Our works have been internationally recognized for their design, stories and art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    <div className="feature">
+        <img  src="src\assets\key-feature-2.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Game design</h3>
+            <p className="feature-p">We have long experience in creating educational and serious games with a wide range of topics, from history to ecology.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    <div className="feature">
+        <img  src="src\assets\key-feature-3.png" alt="" />
+        <div className="give-margin">
+            <h3 className="feature-h3">Art direction</h3>
+            <p className="feature-p">We make award-winning games with unique art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
+            <Nav.Link className="link-tag">Learn More</Nav.Link>
+        </div>
+        
+    </div>
+    </div>
+    </Col>
+    <Col>
+    <div className="give-padding-feature"><h2 className="feature-h2">Key Features</h2>
+    <p className="feature-p">We are ready to deliver your vision across multiple platforms, mobile, or desktop. Games are the language of the 21st century and we can help you harness their unique power.<br></br>
+Games are a language of storytelling. We’re looking for games that develop and expand this language.</p>
+    <button className="styleBtn colorBtn"><Nav.Link href="#">Read More</Nav.Link></button></div>
+    </Col>
+    </Row>
+</Container>
+</section>
         </>
     )
 }
 
-export default About;
+export default Feature;

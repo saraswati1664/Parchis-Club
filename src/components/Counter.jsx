@@ -25,3 +25,4 @@ function Counter({ target, duration = 1000, suffix = "" }) {
 }
 
 export default Counter;
+

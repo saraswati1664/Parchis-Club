@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 function Teams(){
     return(
         <>
+        <section className='teams-section'>
         <Container>
             <Row>
                 <Col className="d-flex align-items-center justify-content-between"><h2 className="teams-h2 about-h2">Meet our developers</h2>
@@ -35,6 +36,7 @@ function Teams(){
                 </Col>
             </Row>
         </Container>
+        </section>
         </>
     )
 }

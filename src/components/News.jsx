@@ -3,9 +3,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
 
-function News(){
+function New(){
     return(
         <>
+        <section className='News-section'>
         <Container>
             <Row className="text-center">
                 <h2 className="about-h2">Our latest news</h2>
@@ -39,8 +40,9 @@ function News(){
                 </Col>
             </Row>
         </Container>
+        </section>
         </>
     )
 }
 
-export default News;
+export default New;
