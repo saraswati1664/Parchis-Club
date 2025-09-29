@@ -65,6 +65,4 @@ function CallDuty() {
     </div>
   );
 }
-export { VideoPlayer, CallDuty };
-
-
+export { VideoPlayer, CallDuty };  
