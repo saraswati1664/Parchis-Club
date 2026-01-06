@@ -21,14 +21,14 @@
   --backgroundColor:linear-gradient(to right, rgba(255, 0, 208, 0.4), rgba(94, 0, 255, 0.4));
 }
 body{
-  background-image: url('./assets/MacBookAir-1.png');
+  background-image: url('../public/MacBookAir-1.png');
   background-position-x: center;
   background-size: 634%;
   background-repeat: repeat-y;
 
 }
 .header-sec{
-  background-image: url('./assets/Header&Banner.png');
+  background-image: url("../public/Header&Banner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -377,7 +377,7 @@ a.active.nav-link {
 /* features-section */
 
 .features-section{
-  background-image: url("src/assets/Key Features.png");
+  background-image: url("../public/Key\ Features.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -484,7 +484,7 @@ a.active.nav-link {
 
 /* news section */
 .News-section{
-  background-image: url("src/assets/Community Highlights.png");
+  background-image: url("../public/Community\ Highlights.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -567,7 +567,7 @@ a.active.nav-link {
 /* footer sectoin */
 
 .footer-back{
-  background-image: url("src/assets/Header&Banner.png"),var(--borderColor);
+  background-image: url("../public/Header&Banner.png"),var(--borderColor);
   background-repeat: no-repeat;
   background-size: cover;
   background-origin: border-box;

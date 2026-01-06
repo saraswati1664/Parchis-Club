@@ -2,6 +2,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
+import news1 from "../assets/latest-news.png";
+import news2 from "../assets/latest-news-2.png";
+import news3 from "../assets/latest-news-3.png";
 
 function New(){
     return(
@@ -15,7 +18,7 @@ function New(){
 
             <Row>
                 <Col md={4} className="news-card">
-                <img width="100%" src="src\assets\latest-news.png" alt="" />
+                <img width="100%" src={news1} alt="" />
                 <div className="show-need">
                     <p className="news-p feature-p">MAY 2, 2024  |  ADMIN </p>
                     <h4 className="h4-news h4-teams">A Guide to Latest Style and Techniques</h4>
@@ -23,7 +26,7 @@ function New(){
                 </div>
                 </Col>
                 <Col md={4} className="news-card">
-                <img width="100%" src="src\assets\latest-news-2.png" alt="" />
+                <img width="100%" src={news2} alt="" />
                 <div className="show-need">
                     <p className="news-p feature-p">MAY 2, 2024  |  ADMIN </p>
                     <h4 className="h4-news h4-teams">A Guide to Latest Style and Techniques</h4>
@@ -31,7 +34,7 @@ function New(){
                 </div>
                 </Col>
                 <Col md={4} className="news-card">
-                <img width="100%" src="src\assets\latest-news-3.png" alt="" />
+                <img width="100%" src={news3} alt="" />
                 <div className="show-need">
                     <p className="news-p feature-p">MAY 2, 2024  |  ADMIN </p>
                     <h4 className="h4-news h4-teams">A Guide to Latest Style and Techniques</h4>

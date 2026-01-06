@@ -3,6 +3,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Counter from '../components/Counter'; 
 import { VideoPlayer, CallDuty } from "../components/VideoPlayer";
+import rectangle from "../assets/rectangles.png";
+import circle  from "../assets/check-circle.png";
 
 
 function About(){
@@ -31,7 +33,7 @@ function About(){
                                         <p className='about-board-p'>Leagues</p>
                                     </div>
                                     <span>
-                                        <img src="src/assets/rectangles.png" alt="" />
+                                        <img src={rectangle} alt="" />
                                     </span>
                                 </Col>
                             </Row>
@@ -49,7 +51,7 @@ function About(){
                                         <p className='about-board-p'>Total Streams</p>
                                     </div>
                                     <span>
-                                        <img style={{marginLeft: '20px'}} src="src/assets/rectangles.png" alt="" />
+                                        <img style={{marginLeft: '20px'}} src={rectangle} alt="" />
                                     </span>
                                 </Col>
                             </Row>
@@ -78,11 +80,11 @@ function About(){
                     <p className='imge-para-about'>Introducing Aquatik Esports | Now Recruiting</p>
                     <Row>
                         <Col md={6} className='d-flex gap-2 align-items-center'>
-                            <span><img src="src/assets/check-circle.png" alt="" /></span>
+                            <span><img src={circle} alt="" /></span>
                             <p className='bottom-img-para'>Lorem Ipsum is simply</p>
                         </Col>
                         <Col md={6} className='d-flex gap-2 align-items-center'>
-                            <span><img src="src/assets/check-circle.png" alt="" /></span>
+                            <span><img src={circle} alt="" /></span>
                             <p className='bottom-img-para'>Lorem Ipsum is simply</p>
                         </Col>
                     </Row>

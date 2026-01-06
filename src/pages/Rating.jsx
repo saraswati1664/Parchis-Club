@@ -1,7 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
+import beforeFooter from "../assets/before-footer.png";
+import Ratingimg from "../assets/start-rating.png";
 
 function Rating(){
     return(
@@ -14,7 +15,7 @@ function Rating(){
                
                 </Col>
                 <Col className="hi-here">
-                <div><img width="100%" src="src\assets\before-footer.png" alt="" /></div>
+                <div><img width="100%" src={beforeFooter} alt="" /></div>
                  <div className="rating-box">
                     <p className="rating-p">The website's user-friendly interface makes it easy to navigate and access a wide range of content, including cutting-edge AI solutions, informative case studies, and expert insights. Networking opportunities and funding resources</p>
                     <Row>
@@ -23,7 +24,7 @@ function Rating(){
                         <p className="p-rating">Client</p>
                         </Col>
                         <Col>
-                        <img src="src\assets\start-rating.png" alt="" />
+                        <img src={Ratingimg} alt="" />
                         </Col>
                     </Row>
                 </div>

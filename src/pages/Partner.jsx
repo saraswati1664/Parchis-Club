@@ -1,3 +1,9 @@
+import partner1 from "../assets/partner-1.png";
+import partner2 from "../assets/partner-2.png";
+import partner3 from "../assets/partner-3.png";
+import partner4 from "../assets/partner-4.png";
+import partner5 from "../assets/partner-5.png";
+
 function Partner() {
     return (
     <>
@@ -9,7 +15,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-1.png"
+              src={partner1}
               
               />
           </div>
@@ -17,7 +23,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-2.png"
+              src={partner2}
               
               />
           </div>
@@ -25,7 +31,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-3.png"
+              src={partner3}
               
               />
           </div>
@@ -33,7 +39,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-4.png"
+              src={partner4}
               
               />
           </div>
@@ -41,7 +47,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-5.png"
+              src={partner5}
               
               />
           </div>
@@ -49,7 +55,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-1.png"
+              src={partner1}
               
               />
           </div>
@@ -57,7 +63,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-2.png"
+              src={partner2}
               
               />
           </div>
@@ -65,7 +71,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-3.png"
+              src={partner3}
               
               />
           </div>
@@ -73,7 +79,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-4.png"
+              src={partner4}
               
               />
           </div>
@@ -81,7 +87,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-5.png"
+              src={partner5}
               
               />
           </div>
@@ -89,7 +95,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-1.png"
+              src={partner1}
               
               />
           </div>
@@ -97,7 +103,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-2.png"
+              src={partner2}
               
               />
           </div>
@@ -105,7 +111,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-3.png"
+              src={partner3}
               
               />
           </div>
@@ -113,7 +119,7 @@ function Partner() {
             <img
               alt=""
               
-              src="src\assets\partner-4.png"
+              src={partner4}
               
               />
           </div>

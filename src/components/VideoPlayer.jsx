@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Nav from "react-bootstrap/Nav";
+import thumbnail1 from "../assets/want-new-members.png";
+import thumbnail2 from "../assets/video-banner.png";
 
 function VideoPlayer() {
   const [play, setPlay] = useState(false);
@@ -21,7 +23,7 @@ function VideoPlayer() {
         // Show thumbnail with play button
         <>
           <img
-            src="src/assets/want-new-members.png"
+            src={thumbnail1}
             alt="Thumbnail"
             className="w-100"
           />
@@ -55,7 +57,7 @@ function CallDuty() {
       ) : (
         // Show thumbnail with play button
         <>
-        <img src="src\assets\video-banner.png" alt="Thumbnail" className="w-100" />
+        <img src={thumbnail2} alt="Thumbnail" className="w-100" />
           
           <Nav.Link onClick={() => setPlay(true)}>
             <i className="fa-regular fa-circle-play icon-tags"></i>

@@ -2,6 +2,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
+import feature1 from "../assets/key-feature-1.png";
+import feature2 from "../assets/key-feature-2.png";
+import feature3 from "../assets/key-feature-3.png";
 function Feature(){
 
     return(
@@ -13,7 +16,7 @@ function Feature(){
         <Col>
     <div className="features-container">
     <div className="feature">
-        <img  src="src\assets\key-feature-1.png" alt="" />
+        <img  src={feature1} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Game development</h3>
             <p className="feature-p">Our works have been internationally recognized for their design, stories and art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
@@ -22,7 +25,7 @@ function Feature(){
         
     </div>
     <div className="feature">
-        <img  src="src\assets\key-feature-2.png" alt="" />
+        <img  src={feature2} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Game design</h3>
             <p className="feature-p">We have long experience in creating educational and serious games with a wide range of topics, from history to ecology.</p>
@@ -31,7 +34,7 @@ function Feature(){
         
     </div>
     <div className="feature">
-        <img  src="src\assets\key-feature-3.png" alt="" />
+        <img  src={feature3} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Art direction</h3>
             <p className="feature-p">We make award-winning games with unique art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
@@ -40,7 +43,7 @@ function Feature(){
         
     </div>
     <div className="feature">
-        <img  src="src\assets\key-feature-1.png" alt="" />
+        <img  src={feature1} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Game development</h3>
             <p className="feature-p">Our works have been internationally recognized for their design, stories and art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
@@ -49,7 +52,7 @@ function Feature(){
         
     </div>
     <div className="feature">
-        <img  src="src\assets\key-feature-2.png" alt="" />
+        <img  src={feature2} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Game design</h3>
             <p className="feature-p">We have long experience in creating educational and serious games with a wide range of topics, from history to ecology.</p>
@@ -58,7 +61,7 @@ function Feature(){
         
     </div>
     <div className="feature">
-        <img  src="src\assets\key-feature-3.png" alt="" />
+        <img  src={feature3} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Art direction</h3>
             <p className="feature-p">We make award-winning games with unique art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
@@ -67,7 +70,7 @@ function Feature(){
         
     </div>
     <div className="feature">
-        <img  src="src\assets\key-feature-1.png" alt="" />
+        <img  src={feature1} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Game development</h3>
             <p className="feature-p">Our works have been internationally recognized for their design, stories and art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
@@ -76,7 +79,7 @@ function Feature(){
         
     </div>
     <div className="feature">
-        <img  src="src\assets\key-feature-2.png" alt="" />
+        <img  src={feature2} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Game design</h3>
             <p className="feature-p">We have long experience in creating educational and serious games with a wide range of topics, from history to ecology.</p>
@@ -85,7 +88,7 @@ function Feature(){
         
     </div>
     <div className="feature">
-        <img  src="src\assets\key-feature-3.png" alt="" />
+        <img  src={feature3} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Art direction</h3>
             <p className="feature-p">We make award-winning games with unique art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
@@ -94,7 +97,7 @@ function Feature(){
         
     </div>
     <div className="feature">
-        <img  src="src\assets\key-feature-1.png" alt="" />
+        <img  src={feature1} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Game development</h3>
             <p className="feature-p">Our works have been internationally recognized for their design, stories and art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
@@ -103,7 +106,7 @@ function Feature(){
         
     </div>
     <div className="feature">
-        <img  src="src\assets\key-feature-2.png" alt="" />
+        <img  src={feature2} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Game design</h3>
             <p className="feature-p">We have long experience in creating educational and serious games with a wide range of topics, from history to ecology.</p>
@@ -112,7 +115,7 @@ function Feature(){
         
     </div>
     <div className="feature">
-        <img  src="src\assets\key-feature-3.png" alt="" />
+        <img  src={feature3} alt="" />
         <div className="give-margin">
             <h3 className="feature-h3">Art direction</h3>
             <p className="feature-p">We make award-winning games with unique art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
